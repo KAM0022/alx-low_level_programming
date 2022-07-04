@@ -8,8 +8,8 @@ int main(void)
 {
 int a;
 char b;
-for (a = 0; a <= 16; a++)
-putchar((a % 10) + '0');
+for (a = 0; a < 10; a++)
+putchar((a % 16) + '0');
 for (b = 'b'; b <= 'c'; b++)
 putchar(a);
 putchar('\n');
