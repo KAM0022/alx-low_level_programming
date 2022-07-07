@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main - print function that prints 10 times the alphabet, in lowercase, followed by a new line.
+* print_alphabet_x10 - function to prints the alphabet 10 times.
 *
 * Return: Always 0.
 */
@@ -13,6 +13,6 @@ for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
-_putchar('\n');:
+_putchar('\n');
 }
 }
